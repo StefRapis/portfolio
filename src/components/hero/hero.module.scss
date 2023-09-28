@@ -1,0 +1,70 @@
+@import "../../styles/variables/all.scss";
+@import "../../styles/helpers/resolutions.scss";
+
+.Hero {
+  // border: 2px solid red;
+  font-family: $font;
+  // padding: 20px 20px 0 20px;
+  margin-top: 150px;
+  margin-bottom: 60px;
+
+  // background-color: #f2f2f2;
+
+  @include desktop {
+    padding: 0;
+    margin-top: 250px;
+    height: 250px;
+    margin: 250px auto 270px auto;
+    // max-width: 1200px;
+  }
+
+  .h1 {
+    margin-bottom: 20px;
+    font-family: $font;
+    font-weight: 700;
+    font-size: 50px;
+    color: $dark;
+    line-height: 1.2;
+
+    .hand {
+      display: none;
+
+      @include desktop {
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+
+    @include desktop {
+      font-size: $h1-desktop;
+      margin-bottom: 30px;
+    }
+  }
+
+  p {
+    line-height: 1.6;
+    max-width: 900px;
+    font-size: 16px;
+
+    @include desktop {
+      font-size: 24px;
+    }
+
+    .designer {
+      color: rgb(50, 191, 165);
+      font-weight: bold;
+      font-size: 16px;
+
+      @include desktop {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .work {
+    margin-top: 20px;
+    font-size: $body-mobile;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}
