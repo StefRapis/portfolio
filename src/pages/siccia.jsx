@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import styles from "@/styles/Siccia.module.scss";
+import Image from "next/image";
 
 export default function Siccia() {
   return (
@@ -44,17 +45,43 @@ export default function Siccia() {
           </div>
         </div>
         <div className={styles.introImg}>
-          <img src="/images/siccia mockup2.png" alt="siccia mockup" />
+          <Image
+            src="/images/siccia mockup2.png"
+            alt="siccia mockup"
+            width={800}
+            height={600}
+          />
         </div>
         <div className={styles.moodboard}>
-          <img src="/images/siccia-moodboard.png" alt="siccia moodboard" />
+          <Image
+            src="/images/siccia-moodboard.png"
+            alt="siccia moodboard"
+            width={800}
+            height={600}
+          />
         </div>
+
         <div className={styles.mockups}>
-          <img src="/images/siccia-mockup3.gif" alt="siccia phone mockup" />
-          <img src="/images/siccia-mockup4.png" alt="siccia phone mockup" />
+          <Image
+            src="/images/siccia-mockup3.gif"
+            alt="siccia phone mockup"
+            width={800}
+            height={600}
+          />
+          <Image
+            src="/images/siccia-mockup4.png"
+            alt="siccia phone mockup"
+            width={800}
+            height={600}
+          />
         </div>
         <div className={styles.real}>
-          <img src="/images/siccia-real.jpg" alt="" />
+          <Image
+            src="/images/siccia-real.jpg"
+            alt="Siccia exteriors"
+            width={800}
+            height={600}
+          />
         </div>
       </div>
       <Footer />

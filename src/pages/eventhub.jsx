@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import styles from "@/styles/Eventhub.module.scss";
 import Footer from "@/components/footer";
+import Image from "next/image";
 
 export default function Eventhub() {
   return (
@@ -68,18 +69,35 @@ export default function Eventhub() {
           </div>
         </div>
         <div className={styles.introImg}>
-          <img src="/images/eventhub-intro.jpg" alt="hero image of eventhub" />
+          <Image
+            src="/images/eventhub-intro.jpg"
+            alt="hero image of eventhub"
+            width={800}
+            height={600}
+          />
         </div>
         <div className={styles.allmockup}>
-          <img src="/images/mockup_desktop.jpg" alt="all mockups of eventhub" />
+          <Image
+            src="/images/mockup_desktop.jpg"
+            alt="all mockups of eventhub"
+            width={800}
+            height={600}
+          />
         </div>
         <div className={styles.figma}>
-          <img src="/images/eventhub_figma.png" alt="figma file of eventhub" />
+          <Image
+            src="/images/eventhub_figma.png"
+            alt="figma file of eventhub"
+            width={800}
+            height={600}
+          />
         </div>
         <div className={styles.mobile}>
-          <img
+          <Image
             src="/images/eventhub_mobile.jpg"
             alt="mobile version of eventhub"
+            width={800}
+            height={600}
           />
         </div>
       </div>

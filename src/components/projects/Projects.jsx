@@ -1,5 +1,6 @@
 import styles from "@/components/projects/projects.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 const Projects = () => {
   return (
@@ -9,9 +10,15 @@ const Projects = () => {
           <div className={styles.case}>
             <Link href="/floasis">
               <div className={styles.image}>
-                <img src="/images/floasis-banner.png" alt="" />
+                <Image
+                  src="/images/floasis-banner.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
               </div>
             </Link>
+
             <div className={styles.text}>
               <Link href="/floasis">
                 {" "}
@@ -30,7 +37,12 @@ const Projects = () => {
           <div className={styles.case}>
             <Link href="/siccia">
               <div className={styles.image}>
-                <img src="/images/siccia mockup.png" alt="" />
+                <Image
+                  src="/images/siccia mockup.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
               </div>{" "}
             </Link>
             <div className={styles.text}>
@@ -51,7 +63,12 @@ const Projects = () => {
             <div className={styles.image}>
               <a href="https://cocktail-parade.vercel.app/" target="_blank">
                 {" "}
-                <img src="/images/Mockup-parade.png" alt="" />
+                <Image
+                  src="/images/Mockup-parade.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
               </a>
             </div>
             {/* </Link> */}
@@ -69,7 +86,12 @@ const Projects = () => {
           <div className={styles.case}>
             <Link href="/eventhub">
               <div className={styles.image}>
-                <img src="/images/eventhub mockup.png" alt="" />
+                <Image
+                  src="/images/eventhub mockup.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
               </div>
             </Link>
             <div className={styles.text}>

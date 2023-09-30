@@ -1,7 +1,7 @@
+import styles from "@/styles/Floasis.module.scss";
+import Image from "next/image";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-
-import styles from "@/styles/Floasis.module.scss";
 
 export default function Floasis() {
   return (
@@ -35,10 +35,12 @@ export default function Floasis() {
             </div>
           </div>
 
-          <img
+          <Image
             className={styles.logo}
             src="/images/floasis-logo2.png"
             alt="floasis logo"
+            width={800}
+            height={600}
           />
 
           <div className={styles.problemGoal}>
@@ -69,16 +71,23 @@ export default function Floasis() {
               </div>
             </div>
 
-            <img
+            <Image
               className={styles.problemImage}
               src="/images/home-mockup1.png"
               alt="mockup of floasis app"
+              width={800}
+              height={600}
             />
           </div>
           <div className={styles.designProcess}>
             <h2>My Design Process</h2>
 
-            <img src="/images/design-process.png" alt="design process" />
+            <Image
+              src="/images/design-process.png"
+              alt="design process"
+              width={800}
+              height={600}
+            />
           </div>
           <div className={styles.phase}>
             {/* <hr /> */}
@@ -86,7 +95,13 @@ export default function Floasis() {
             {/* <hr /> */}
           </div>
           <div className={styles.summary}>
-            <img src="/images/mockup3.png" alt="floasis logo" />
+            <Image
+              src="/images/mockup3.png"
+              alt="floasis mockup"
+              width={800}
+              height={600}
+            />
+
             <div className={styles.summaryInfo}>
               <h3>User research</h3>
               <p>
@@ -145,7 +160,12 @@ export default function Floasis() {
                   local stores.
                 </p>
                 <div className={styles.personaImg}>
-                  <img src="/images/persona.png" alt="image of a woman" />
+                  <Image
+                    src="/images/persona.png"
+                    alt="image of a woman"
+                    width={800}
+                    height={600}
+                  />
                 </div>
               </div>
             </div>
@@ -160,7 +180,12 @@ export default function Floasis() {
                   get a notification message for completed delivery.
                 </p>
                 <div className={styles.journeyImg}>
-                  <img src="/images/journey.png" alt="" />
+                  <Image
+                    src="/images/journey.png"
+                    alt="user journey"
+                    width={800}
+                    height={600}
+                  />
                 </div>
               </div>
             </div>
@@ -168,8 +193,18 @@ export default function Floasis() {
             <div className={styles.storyboards}>
               <h3>User storyboards</h3>
               <div className={styles.storyImg}>
-                <img src="/images/storyboard1.jpg" alt="" />
-                <img src="/images/storyboard2.jpg" alt="" />
+                <Image
+                  src="/images/storyboard1.jpg"
+                  alt="user storyboard"
+                  width={800}
+                  height={600}
+                />
+                <Image
+                  src="/images/storyboard2.jpg"
+                  alt="user storyboard"
+                  width={800}
+                  height={600}
+                />
               </div>
             </div>
           </div>
@@ -195,7 +230,12 @@ export default function Floasis() {
               </p>
             </div>
             <div className={styles.paperImg}>
-              <img src="/images/paper.jpg" alt="image of paper wireframes" />
+              <Image
+                src="/images/paper.jpg"
+                alt="image of paper wireframes"
+                width={800}
+                height={600}
+              />
             </div>
           </div>
           <div className={styles.digitalContainer}>
@@ -209,7 +249,12 @@ export default function Floasis() {
                 designs were based on user needs and research findings.
               </p>
               <div className={styles.digitalImg}>
-                <img src="/images/digital1.png" alt="digital wireframe" />
+                <Image
+                  src="/images/digital1.png"
+                  alt="digital wireframe"
+                  width={800}
+                  height={600}
+                />
               </div>
             </div>
             <div className={styles.digitalWireframe2}>
@@ -218,19 +263,34 @@ export default function Floasis() {
                 monitor the status and progress of their orders.
               </p>
               <div className={styles.digitalImg}>
-                <img src="/images/digital2.png" alt="digital wireframe" />
+                <Image
+                  src="/images/digital2.png"
+                  alt="digital wireframe"
+                  width={800}
+                  height={600}
+                />
               </div>
             </div>
 
             <div className={styles.allWireframes}>
-              <img src="./images/wireframes.png" alt="" />
+              <Image
+                src="./images/wireframes.png"
+                alt="all wireframes"
+                width={800}
+                height={600}
+              />
             </div>
           </div>
           <hr />
           <div className={styles.protoAndUsability}>
             <div className={styles.loFiProto}>
               <div className={styles.lofiImg}>
-                <img src="/images/lofi.gif.gif" alt="floasis prototype" />
+                <Image
+                  src="/images/lofi.gif.gif"
+                  alt="floasis prototype"
+                  width={800}
+                  height={600}
+                />
               </div>
             </div>
 
@@ -296,9 +356,11 @@ export default function Floasis() {
                 for effortless and immediate access.
               </p>
               <div className={styles.refineImg}>
-                <img
+                <Image
                   src="/images/profile-usability.png"
                   alt="profile page before and after"
+                  width={800}
+                  height={600}
                 />
               </div>
             </div>
@@ -309,20 +371,37 @@ export default function Floasis() {
                 during the journey.
               </p>
               <div className={styles.refineImg}>
-                <img
+                <Image
                   src="/images/profile-usability2.png"
                   alt="checkout page before and after"
+                  width={800}
+                  height={600}
                 />
               </div>
             </div>
             <div className={styles.end}>
-              <img src="/images/floasis-banner2.png" alt="floasis screens" />
+              <Image
+                src="/images/floasis-banner2.png"
+                alt="floasis screens"
+                width={1200}
+                height={800}
+              />
             </div>
             <div className={styles.sticker}>
-              <img src="/images/sticker-sheet.png" alt="sticker sheet" />
+              <Image
+                src="/images/sticker-sheet.png"
+                alt="sticker sheet"
+                width={800}
+                height={600}
+              />
             </div>
             <div className={styles.allWireframes2}>
-              <img src="/images/mockups.png" alt="final mockups" />
+              <Image
+                src="/images/mockups.png"
+                alt="final mockups"
+                width={800}
+                height={600}
+              />
             </div>
           </div>
           <div className={styles.phase}>
@@ -331,7 +410,12 @@ export default function Floasis() {
           </div>
           <div className={styles.result}>
             <div className={styles.resultImg}>
-              <img src="/images/floasis-gif.gif" alt="" />
+              <Image
+                src="/images/floasis-gif.gif"
+                alt="final prototype"
+                width={800}
+                height={600}
+              />
             </div>
             <a
               href="https://www.figma.com/proto/lEcrJ991WDK4SfjQmamDw5/FloAsis-digital-wireframes?page-id=94%3A1210&type=design&node-id=250-4043&viewport=1328%2C780%2C0.92&t=SQg09RcfDYuVxrI0-1&scaling=scale-down&starting-point-node-id=103%3A1818&mode=design"

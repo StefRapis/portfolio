@@ -1,4 +1,5 @@
 import styles from "@/components/footer/footer.module.scss";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -15,10 +16,20 @@ const Footer = () => {
               href="https://www.linkedin.com/in/stefaniarapisarda/"
               target="_blank"
             >
-              <img src="/images/linkedin2.png" alt="" />
+              <Image
+                src="/images/linkedin2.png"
+                alt="linkedin icon"
+                width={40}
+                height={40}
+              />
             </a>
             <a href="https://github.com/stefRapis" target="_blank">
-              <img src="/images/github.png" alt="" />
+              <Image
+                src="/images/github.png"
+                alt="github icon"
+                width={40}
+                height={40}
+              />
             </a>
           </div>
         </div>
