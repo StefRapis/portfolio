@@ -24,8 +24,8 @@ export default function Eventhub() {
               larger screens. This approach ensured that website content is
               easily accessible and readable on mobile devices, such as
               smartphones and tablets, while still being adapted for desktop and
-              laptop screens. <br /> <br /> The platform was developed using the
-              following technologies:
+              laptop screens. <br /> <br /> Technologies used: HTML5, SASS,
+              Javascript, Next.Js, TicketMaster API
               {/* <ul>
                 <li> HTML</li>
                 <li> SASS</li>

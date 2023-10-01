@@ -1,5 +1,6 @@
 import styles from "@/components/hero/hero.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -12,7 +13,11 @@ const Hero = () => {
           I'm a <span className={styles.designer}>Product designer</span> based
           in Italy. I enjoy crafting meaningful visual experiences that help
           enriching people's lives. I have a passion for colours, shapes and
-          everything visual. <br /> <br /> Check out my work!
+          everything visual. <br /> <br />
+          <Link href="#projects">
+            {" "}
+            <a>CHECK OUT MY WORK</a>{" "}
+          </Link>
         </p>
         <br />
       </div>

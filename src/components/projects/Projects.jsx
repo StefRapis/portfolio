@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className={styles.Projects}>
+    <div className={styles.Projects} id="projects">
       <div className="containerHome">
         <div className={styles.wrapper}>
           <div className={styles.case}>
@@ -125,7 +125,7 @@ const Projects = () => {
               <p>Branding</p>
             </div>
             <div className={styles.spec}>
-              <p>Logo design, brand identity and social media posts</p>
+              <p>Logo design and brand identity</p>
             </div>
           </div>
           <div className={styles.case}></div>

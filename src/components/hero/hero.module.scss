@@ -14,7 +14,7 @@
     padding: 0;
     margin-top: 250px;
     height: 250px;
-    margin: 250px auto 270px auto;
+    margin: 250px auto 370px auto;
     // max-width: 1200px;
   }
 
@@ -61,10 +61,19 @@
     }
   }
 
-  .work {
+  a {
     margin-top: 20px;
-    font-size: $body-mobile;
-    font-weight: 400;
-    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+    color: $grey;
+    letter-spacing: 0.7px;
+
+    &:hover {
+      color: $aqua;
+    }
+
+    @include desktop {
+      font-size: $body-mobile;
+    }
   }
 }
