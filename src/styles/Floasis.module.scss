@@ -143,7 +143,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     background-color: $offwhite;
 
     h2 {
@@ -713,6 +713,7 @@
   .resultImg {
     img {
       width: 100%;
+      height: auto;
 
       @include desktop {
         width: 600px;
@@ -729,5 +730,7 @@
 .end {
   img {
     width: 100%;
+    height: auto;
+    display: block;
   }
 }

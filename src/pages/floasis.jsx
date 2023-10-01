@@ -384,7 +384,7 @@ export default function Floasis() {
                 src="/images/floasis-banner2.png"
                 alt="floasis screens"
                 width={1200}
-                height={800}
+                height={300}
               />
             </div>
             <div className={styles.sticker}>

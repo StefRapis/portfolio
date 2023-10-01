@@ -1,0 +1,24 @@
+@import "../styles/variables/all.scss";
+@import "../styles/helpers/resolutions.scss";
+
+.About {
+  font-family: $font;
+  color: $dark;
+  background-color: white;
+
+  .title {
+    margin-bottom: 80px;
+
+    h1 {
+      margin-top: 20px;
+      font-size: $h1-desktop;
+      color: $aquat;
+    }
+
+    p {
+      color: $grey;
+      font-weight: 700;
+      letter-spacing: 1.1px;
+    }
+  }
+}
