@@ -6,19 +6,62 @@
   color: $dark;
   background-color: white;
 
-  .title {
-    margin-bottom: 80px;
+  .aboutContainer {
+    display: flex;
 
-    h1 {
-      margin-top: 20px;
-      font-size: $h1-desktop;
-      color: $aquat;
+    flex-direction: column;
+
+    @include desktop {
+      flex-direction: row;
+      gap: 50px;
+    }
+    .image {
+      width: 100%;
+      margin-top: 40px;
+
+      @include desktop {
+        margin-top: 0px;
+        width: 80%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+      }
     }
 
-    p {
-      color: $grey;
-      font-weight: 700;
-      letter-spacing: 1.1px;
+    .info {
+      .title {
+        margin-bottom: 40px;
+
+        h1 {
+          margin-top: 20px;
+          font-size: 50px;
+          color: $aquat;
+          line-height: 1.1;
+
+          @include desktop {
+            font-size: 70px;
+          }
+        }
+
+        p {
+          color: $grey;
+          font-weight: 500;
+          margin-top: 20px;
+          font-size: $body-mobile;
+        }
+      }
+
+      .intro {
+        .project {
+          p {
+            line-height: 1.6;
+            text-align: justify;
+          }
+        }
+      }
     }
   }
 }

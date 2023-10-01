@@ -73,9 +73,9 @@ const Projects = () => {
             </div>
             {/* </Link> */}
             <div className={styles.text}>
-              <Link href="https://cocktail-parade.vercel.app/" target="_blank">
+              <a href="https://cocktail-parade.vercel.app/" target="_blank">
                 <h2>COCKTAIL PARADE</h2>{" "}
-              </Link>
+              </a>
               <p>Front-end | React</p>
             </div>
             <div className={styles.spec}>

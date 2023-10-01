@@ -8,27 +8,36 @@ function About() {
     <div className={styles.About}>
       <Header />
       <div className="container">
-        <div className={styles.title}>
-          <h1>Stefania Rapisarda</h1>
-          <p>BRANDING, UI, WEB DESIGN</p>
-        </div>
-        <div className={styles.intro}>
-          <div className={styles.project}>
-            <h2>The Project</h2>
-            <p>
-              Siccia Fish Bar is a seafood restaurant nestled in the heart of
-              Catania. I had the privilege of creating their brand identity and
-              crafting the landing page, drawing inspiration from the vibrant
-              colors and captivating atmospheres of the Mediterranean. <br />{" "}
-              <br /> I wanted to convey the freshness and authenticity of their
-              seafood offerings, the warmth of the Sicilian culture, and the
-              stunning coastal landscapes that surround Catania. To achieve
-              this, I chose a color palette dominated by shades of azure blue
-              and bright yellow, reminiscent of the sea and sandy beaches. These
-              colors not only evoke the Mediterranean aesthetic but also elicit
-              a sense of calm and relaxation, inviting customers to embark on a
-              culinary journey by the sea.
-            </p>
+        <div className={styles.aboutContainer}>
+          <div className={styles.image}>
+            <Image
+              src="/images/stefania.jpg"
+              alt="photo of Stefania Rapisarda"
+              width={800}
+              height={600}
+            />
+          </div>
+          <div className={styles.info}>
+            <div className={styles.title}>
+              <h1>Stefania Rapisarda</h1>
+              <p>Hello! Welcome to my portfolio!</p>
+            </div>
+
+            <div className={styles.intro}>
+              <div className={styles.project}>
+                <p>
+                  After graduating in Musical Theatre, I discovered the field of
+                  UX/UI Design, and it was love at first sight! My passion for
+                  the tech world led me to first train as a Frontend Web
+                  Developer and then as a UX Designer. <br />
+                  My ultimate goal is to create seamless and user-centric
+                  digital experiences that not only meet the needs of users but
+                  also delight and engage them. <br /> <br />
+                  In my free time I like to paint, sing and spend time in nature
+                  with my dogs.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
