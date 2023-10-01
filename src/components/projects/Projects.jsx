@@ -73,7 +73,7 @@ const Projects = () => {
             </div>
             {/* </Link> */}
             <div className={styles.text}>
-              <Link href="/cocktail">
+              <Link href="https://cocktail-parade.vercel.app/" target="_blank">
                 <h2>COCKTAIL PARADE</h2>{" "}
               </Link>
               <p>Front-end | React</p>
@@ -104,6 +104,31 @@ const Projects = () => {
               <p>Ticket platform developed in Next.js</p>
             </div>
           </div>
+        </div>
+
+        <div className={styles.wrapper}>
+          <div className={styles.case}>
+            <Link href="/terramadre">
+              <div className={styles.image}>
+                <Image
+                  src="/images/terramadre-banner.jpg"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
+              </div>
+            </Link>
+            <div className={styles.text}>
+              <Link href="/terramadre">
+                <h2>TERRA MADRE</h2>{" "}
+              </Link>
+              <p>Branding</p>
+            </div>
+            <div className={styles.spec}>
+              <p>Logo design, brand identity and social media posts</p>
+            </div>
+          </div>
+          <div className={styles.case}></div>
         </div>
       </div>
     </div>

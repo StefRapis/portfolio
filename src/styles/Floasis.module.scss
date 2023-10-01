@@ -138,6 +138,7 @@
   }
 
   .designProcess {
+    margin-top: -40px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -145,6 +146,10 @@
     justify-content: center;
     margin-bottom: 80px;
     background-color: $offwhite;
+
+    @include desktop {
+      margin-top: -20px;
+    }
 
     h2 {
       font-size: $h2-mobile;
