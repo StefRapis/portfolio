@@ -329,7 +329,7 @@ export default function Floasis() {
                 👉🏼 Click here to view the Low Fidelity prototype
               </a>
               <a
-                href="https://www.figma.com/proto/lEcrJ991WDK4SfjQmamDw5/FloAsis-digital-wireframes?page-id=0%3A1&type=design&node-id=2-4&viewport=187%2C575%2C0.45&t=EorYFOr18AislXzh-1&scaling=scale-down&starting-point-node-id=3%3A151&show-proto-sidebar=1&mode=design"
+                href="https://docs.google.com/spreadsheets/d/1scRlh_kM5qUyQuLWh3cOkhSJ9xTtn0xFM0dfmxYeeJI/edit?usp=sharing"
                 target="_blank"
               >
                 👉🏼 Click here to view the full Usability Study
