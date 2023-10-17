@@ -20,9 +20,18 @@
     padding: 20px 40px;
   }
 
-  h1 {
-    color: #32bfa5;
-    font-size: 2rem;
+  // h1 {
+  //   color: #32bfa5;
+  //   font-size: 2rem;
+  // }
+
+  .logo {
+    // border: 2px solid red;
+
+    img {
+      width: auto;
+      padding-top: 5px;
+    }
   }
 
   nav ul {

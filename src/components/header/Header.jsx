@@ -1,14 +1,26 @@
 import styles from "@/components/header/header.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   return (
     <div className={styles.Header}>
-      <section className={styles.logo}>
+      {/* <section className={styles.logo}>
         <h1>
           <Link href="/">SR.</Link>
         </h1>
-      </section>
+      </section> */}
+
+      <Link href="/">
+        <div className={styles.logo}>
+          <Image
+            src="/images/STEF.png"
+            alt="signature"
+            width={200}
+            height={80}
+          />
+        </div>
+      </Link>
       <nav>
         <ul>
           <li>
