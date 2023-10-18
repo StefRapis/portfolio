@@ -38,7 +38,7 @@ const Projects = () => {
             <Link href="/siccia">
               <div className={styles.image}>
                 <Image
-                  src="/images/siccia mockup.png"
+                  src="/images/3.gif"
                   alt="banner"
                   width={800}
                   height={600}
@@ -64,7 +64,7 @@ const Projects = () => {
               <a href="https://cocktail-parade.vercel.app/" target="_blank">
                 {" "}
                 <Image
-                  src="/images/Mockup-parade.png"
+                  src="/images/4.gif"
                   alt="banner"
                   width={800}
                   height={600}
