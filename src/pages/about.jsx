@@ -1,6 +1,7 @@
 import styles from "@/styles/About.module.scss";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Skills from "@/components/skills";
 import Image from "next/image";
 
 function About() {
@@ -40,6 +41,7 @@ function About() {
             </div>
           </div>
         </div>
+        <Skills />
       </div>
       <Footer />
     </div>
