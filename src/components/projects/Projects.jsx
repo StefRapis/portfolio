@@ -47,7 +47,7 @@ const Projects = () => {
               <p>UX/UI Design</p>
             </div>
             <div className={styles.spec}>
-              <p>Citrus tracking platform</p>
+              <p>Platform for agrifood traceability</p>
             </div>
           </div>
         </div>
