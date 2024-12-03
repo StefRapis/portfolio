@@ -29,8 +29,8 @@ const Projects = () => {
             </div>
           </div>
           <div className={styles.case}>
-            <div className={styles.image}>
-              <a href="/citrace">
+            <Link href="/citrace">
+              <div className={styles.image}>
                 {" "}
                 <Image
                   src="/images/preview citrace.png"
@@ -38,13 +38,12 @@ const Projects = () => {
                   width={800}
                   height={600}
                 />
-              </a>
-            </div>
-
+              </div>
+            </Link>
             <div className={styles.text}>
-              <a href="/citrace">
+              <Link href="/citrace">
                 <h2>CiTrace </h2>{" "}
-              </a>
+              </Link>
               <p>UX/UI Design</p>
             </div>
             <div className={styles.spec}>
@@ -76,9 +75,8 @@ const Projects = () => {
             </div>
           </div>
           <div className={styles.case}>
-            {/* <Link href="/cocktail"> */}
-            <div className={styles.image}>
-              <a href="/amts">
+            <Link href="/amts">
+              <div className={styles.image}>
                 {" "}
                 <Image
                   src="/images/intro amts.png"
@@ -86,13 +84,12 @@ const Projects = () => {
                   width={800}
                   height={600}
                 />
-              </a>
-            </div>
-            {/* </Link> */}
+              </div>
+            </Link>
             <div className={styles.text}>
-              <a href="/amts">
+              <Link href="/amts">
                 <h2>AMTS - Azienda Metropolitana Trasporti e Sosta </h2>{" "}
-              </a>
+              </Link>
               <p>UX/UI Design</p>
             </div>
             <div className={styles.spec}>
@@ -103,8 +100,8 @@ const Projects = () => {
 
         <div className={styles.wrapper}>
           <div className={styles.case}>
-            <div className={styles.image}>
-              <a href="/thf">
+            <Link href="/thf">
+              <div className={styles.image}>
                 {" "}
                 <Image
                   src="/images/intro thf.png"
@@ -112,13 +109,12 @@ const Projects = () => {
                   width={800}
                   height={600}
                 />
-              </a>
-            </div>
-
+              </div>
+            </Link>
             <div className={styles.text}>
-              <a href="/thf">
+              <Link href="/thf">
                 <h2>THF</h2>{" "}
-              </a>
+              </Link>
               <p>UX/UI Design</p>
             </div>
             <div className={styles.spec}>
