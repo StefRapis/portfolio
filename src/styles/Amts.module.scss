@@ -1,0 +1,98 @@
+@import "../styles/variables/all.scss";
+@import "../styles/helpers/resolutions.scss";
+
+.Amts {
+  font-family: $font;
+  color: $dark;
+  background-color: white;
+
+  .title {
+    margin-bottom: 80px;
+
+    h1 {
+      margin-top: 20px;
+      font-size: $h1-desktop;
+      color: $aquat;
+      line-height: 1;
+    }
+
+    p {
+      color: $grey;
+      font-weight: 700;
+      letter-spacing: 1.1px;
+      margin-top: 20px;
+    }
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 50px;
+
+    @include desktop {
+      flex-direction: row;
+      gap: 80px;
+    }
+
+    .project {
+      width: 100%;
+      h2 {
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: $h2-mobile;
+      }
+
+      p {
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    .specs {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      .role,
+      .duration,
+      .responsibilities {
+        span {
+          color: $grey;
+          font-weight: 600;
+          letter-spacing: 0.6px;
+        }
+        p {
+          margin-top: 5px;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+  .introImg,
+  .moodboard {
+    margin-bottom: 30px;
+    @include desktop {
+      margin-bottom: 60px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+
+      @include desktop {
+      }
+    }
+  }
+
+  .images {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

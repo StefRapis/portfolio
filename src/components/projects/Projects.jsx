@@ -8,6 +8,149 @@ const Projects = () => {
       <div className="containerHome">
         <div className={styles.wrapper}>
           <div className={styles.case}>
+            <Link href="/DipCoe">
+              <div className={styles.image}>
+                <Image
+                  src="\images\coming soon.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
+              </div>
+            </Link>
+            <div className={styles.text}>
+              <Link href="/dipcoe">
+                <h2>Coming soon</h2>{" "}
+              </Link>
+              <p>UX/UI Design</p>
+            </div>
+            <div className={styles.spec}>
+              <p>Coming soon!</p>
+            </div>
+          </div>
+          <div className={styles.case}>
+            <div className={styles.image}>
+              <a href="/citrace">
+                {" "}
+                <Image
+                  src="/images/preview citrace.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
+              </a>
+            </div>
+
+            <div className={styles.text}>
+              <a href="/citrace">
+                <h2>CiTrace </h2>{" "}
+              </a>
+              <p>UX/UI Design</p>
+            </div>
+            <div className={styles.spec}>
+              <p>Citrus tracking platform</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.wrapper}>
+          <div className={styles.case}>
+            <Link href="/firemusa">
+              <div className={styles.image}>
+                <Image
+                  src="\images\intro fire.jpg"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
+              </div>
+            </Link>
+            <div className={styles.text}>
+              <Link href="/firemusa">
+                <h2>FIRE MUSA</h2>{" "}
+              </Link>
+              <p>Wordpress | UX/UI Design</p>
+            </div>
+            <div className={styles.spec}>
+              <p>Wordpress website and self-assessment tool design</p>
+            </div>
+          </div>
+          <div className={styles.case}>
+            {/* <Link href="/cocktail"> */}
+            <div className={styles.image}>
+              <a href="/amts">
+                {" "}
+                <Image
+                  src="/images/intro amts.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
+              </a>
+            </div>
+            {/* </Link> */}
+            <div className={styles.text}>
+              <a href="/amts">
+                <h2>AMTS - Azienda Metropolitana Trasporti e Sosta </h2>{" "}
+              </a>
+              <p>UX/UI Design</p>
+            </div>
+            <div className={styles.spec}>
+              <p>On-street parking spaces tracking platform</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.wrapper}>
+          <div className={styles.case}>
+            <div className={styles.image}>
+              <a href="/thf">
+                {" "}
+                <Image
+                  src="/images/intro thf.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
+              </a>
+            </div>
+
+            <div className={styles.text}>
+              <a href="/thf">
+                <h2>THF</h2>{" "}
+              </a>
+              <p>UX/UI Design</p>
+            </div>
+            <div className={styles.spec}>
+              <p>Investing platform</p>
+            </div>
+          </div>
+
+          <div className={styles.case}>
+            <Link href="/eventhub">
+              <div className={styles.image}>
+                <Image
+                  src="/images/eventhub mockup.png"
+                  alt="banner"
+                  width={800}
+                  height={600}
+                />
+              </div>
+            </Link>
+            <div className={styles.text}>
+              <Link href="/eventhub">
+                <h2>EVENTHUB</h2>{" "}
+              </Link>
+              <p>Front-end | Next.js</p>
+            </div>
+            <div className={styles.spec}>
+              <p>Ticket platform developed in Next.js</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.wrapper}>
+          <div className={styles.case}>
             <Link href="/floasis">
               <div className={styles.image}>
                 <Image
@@ -55,80 +198,6 @@ const Projects = () => {
               <p>Branding, UI, Web design</p>
             </div>
           </div>
-        </div>
-
-        <div className={styles.wrapper}>
-          <div className={styles.case}>
-            {/* <Link href="/cocktail"> */}
-            <div className={styles.image}>
-              <a href="https://cocktail-parade.vercel.app/" target="_blank">
-                {" "}
-                <Image
-                  src="/images/4.gif"
-                  alt="banner"
-                  width={800}
-                  height={600}
-                />
-              </a>
-            </div>
-            {/* </Link> */}
-            <div className={styles.text}>
-              <a href="https://cocktail-parade.vercel.app/" target="_blank">
-                <h2>COCKTAIL PARADE</h2>{" "}
-              </a>
-              <p>Front-end | React</p>
-            </div>
-            <div className={styles.spec}>
-              <p>Html, Css, Javascript</p>
-            </div>
-          </div>
-
-          <div className={styles.case}>
-            <Link href="/eventhub">
-              <div className={styles.image}>
-                <Image
-                  src="/images/eventhub mockup.png"
-                  alt="banner"
-                  width={800}
-                  height={600}
-                />
-              </div>
-            </Link>
-            <div className={styles.text}>
-              <Link href="/eventhub">
-                <h2>EVENTHUB</h2>{" "}
-              </Link>
-              <p>Front-end | Next.js</p>
-            </div>
-            <div className={styles.spec}>
-              <p>Ticket platform developed in Next.js</p>
-            </div>
-          </div>
-        </div>
-
-        <div className={styles.wrapper}>
-          <div className={styles.case}>
-            <Link href="/terramadre">
-              <div className={styles.image}>
-                <Image
-                  src="/images/terramadre-banner.jpg"
-                  alt="banner"
-                  width={800}
-                  height={600}
-                />
-              </div>
-            </Link>
-            <div className={styles.text}>
-              <Link href="/terramadre">
-                <h2>TERRA MADRE</h2>{" "}
-              </Link>
-              <p>Branding</p>
-            </div>
-            <div className={styles.spec}>
-              <p>Logo design and brand identity</p>
-            </div>
-          </div>
-          <div className={styles.case}></div>
         </div>
       </div>
     </div>
